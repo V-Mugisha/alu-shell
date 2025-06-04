@@ -1,2 +1,2 @@
 #!/bin/bash
-while read -r line; do printf "${line:0:1}"; done; echo
+cut -c1 | paste -sd ""
